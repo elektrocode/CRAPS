@@ -91,7 +91,7 @@ public class craps {
 		int sum = dice1 + dice2;
 		
 		// displays the result of each dice and there sum 
-		System.out.printf("The player rolled %d + %d = %d/n", dice1, dice2, sum);
+		System.out.printf("The player rolled %d + %d = %d ", dice1, dice2, sum);
 		
 		// returns an integer representing sum of dice1 and dice2
 		return sum;		
